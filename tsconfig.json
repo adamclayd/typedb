@@ -1,0 +1,22 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    // Environment Settings
+    // See also https://aka.ms/tsconfig/module
+    "module": "esnext",
+    "target": "esnext",
+    "types": [],
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "moduleResolution": "bundler"
+  }
+}

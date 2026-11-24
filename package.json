@@ -1,0 +1,39 @@
+{
+  "name": "@adamclayd/typedb",
+  "version": "0.0.1",
+  "description": "An ORM for typescript that supports linq like queries",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./functions": {
+      "types": "./dist/functions/index.d.ts",
+      "default": "./dist/functions/index.js"
+    }
+  },
+  "scripts": {},
+  "keywords": [
+    "typedb",
+    "orm",
+    "linq",
+    "csharp",
+    "c#",
+    "typescript",
+    "database",
+    "query",
+    "queries",
+    "query builder"
+  ],
+  "author": "Adam Davis",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "mysql2": "^3.24.6"
+  }
+}
